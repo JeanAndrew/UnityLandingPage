@@ -1,0 +1,82 @@
+<!-- Se indica con la etiqueta DOCTYPE que es lenguaje HTML -->
+<!DOCTYPE html>
+<!-- Se indica con con el atributo lang que es lenguaje español -->
+<html lang="es">
+<!-- Se indica con la etiqueta head la cabecera de la pagina -->
+<head>
+	<!-- Se indica con la etiqueta meta la configuración de la pagina -->
+	<meta charset="UTF-8">
+	<!-- Configuración de la pantalla -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Smartland - Juego de preguntas y respuestas</title>
+	<!-- Se hace link a la hoja de estilos en CSS para esta pagina -->
+	<link rel="stylesheet" href="stylesIndex.css">
+	<!-- Se hace uso de Font Awesome para los iconos -->
+    <script src="https://kit.fontawesome.com/a23a084005.js" crossorigin="anonymous"></script>
+<!-- Se cierra la etiqueta head -->
+</head>
+<!-- body para indicar el cuerpo de la pagina -->
+<body>
+	<!-- header para el encabezado de la pagina -->
+	<header>
+		<!-- nav para la barra de navegación -->
+		<nav>
+			<!-- ul para listas desordenadas -->
+			<ul>
+				<!-- li para elementos de la lista y "a" para los links -->
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="about.html">Acerca de nosotros</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<!-- section y el id para indicar cual es el estilo que se va a usar desde la hoja de estilos -->
+	<section id="hero">
+		<div class="container">
+			<!-- H1 para titulos -->
+			<h1>¡Bienvenido a Smartland!</h1>
+			<!-- p para parrafos de texto -->
+			<p>El juego de preguntas y respuestas más divertido y educativo.</p>
+			<a href="#" class="btn-primary">Jugar ahora</a>
+		</div>
+	</section>
+
+	<section id="features">
+		<div class="container">
+			<!-- H2 para textos más pequeños -->
+			<h2>Características</h2>
+			<ul>
+				<!-- la clase en estos botones son las clases de los iconos de Font Awesome -->
+				<li><i class="fas fa-rocket"></i> ¡Juega y aprende al mismo tiempo!</li>
+				<li><i class="fas fa-lock"></i> Preguntas desafiantes para todos los niveles</li>
+				<li><i class="fas fa-star"></i> Puntuación y logros para mantenerte motivado</li>
+				<li><i class="fas fa-gamepad"></i> Interfaz fácil de usar para una experiencia de juego fluida</li>
+			</ul>
+		</div>
+	</section>
+
+    <section id="gameplay-images">
+        <div class="container">
+            <!-- agregar las imágenes del gameplay -->
+			<!-- img para las imagenes para el encabezado de la pagina -->
+            <img src="https://unity.com/sites/default/files/styles/16_9_s_scale_width/public/2019-11/first-game-jam.jpg?itok=RTPzbvBS" alt="Gameplay 1">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3FrxfTubUr1X0yI1GoZgMwMn4rhysch4liRYVa8kXxNnwysGy4nQhjPo1dgDV05KeIRk&usqp=CAU" alt="Gameplay 2">
+            <!-- Agregar más imágenes según sea necesario -->
+        </div>
+    </section>
+    
+    <section id="gameplay-video">
+        <div class="container">
+            <!-- agregar el video del gameplay con la etiqueta iframe-->
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/TU-ID-DEL-VIDEO" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </section>
+
+	<!-- footer para el el pie de pagina de la pagina web -->
+	<footer>
+		<div class="container">
+			<p>Derechos reservados © 2023 Smartland</p>
+		</div>
+	</footer>
+</body>
+</html>

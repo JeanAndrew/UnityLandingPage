@@ -1,0 +1,166 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #3c4858;
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 16px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-bottom: 16px;
+}
+
+/* Estilos específicos para la sección Acerca de nosotros */
+#about {
+    background-color: #f5f7fa;
+    padding: 100px 0;
+}
+
+#about h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 24px;
+    margin-top: 40px;
+}
+
+#about p {
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+#about ul {
+    margin-bottom: 24px;
+}
+
+#about ul li {
+    margin-bottom: 8px;
+}
+
+#about a {
+    font-weight: bold;
+}
+
+#about a:hover {
+    color: #0056b3;
+}
+
+#about .contact-info {
+    margin-top: 40px;
+}
+
+#about .contact-info p {
+    font-size: 16px;
+}
+
+#about .contact-info a {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.team {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.team-member {
+    text-align: center;
+    margin: 20px;
+}
+
+.team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.team-member h3 {
+    margin-top: 10px;
+}
+
+header {
+    background-color: #fff;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    margin-left: 100px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+    transition: all 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    color: #f0a500;
+}
+
+/* Estilos del pie de página */
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
